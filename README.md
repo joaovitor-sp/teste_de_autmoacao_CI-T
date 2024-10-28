@@ -17,5 +17,7 @@ Cenário: Busca por questão existente
 Dado que navego para a página de busca do banco de questões
 E digito 'What does GPS stand for?' no campo de busca
 Quando clico no botão de buscar
-Então visualizo uma mensagem de erro com o texto 'No questions found.'
+Então visualizo o resultado:
+(imagem)'
 ```
+<img src="resultado existente na busca.png">
